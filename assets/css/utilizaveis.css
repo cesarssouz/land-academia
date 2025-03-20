@@ -4,7 +4,15 @@
 }
 
 .back-acad {
-    background-image: url(../img/undefined_image.png);
+    background-image: linear-gradient(rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.7)), 
+                      url(../img/risen-wang-20jX9b35r_M-unsplash.jpg);
     background-size: cover;
     background-position: center center;
+}
+
+.back-padrao {
+    color: var(--cor-preta);
+}
+.secao {
+    min-height: 100vh;
 }
