@@ -23,8 +23,18 @@ h1 {
     font-size: 3rem;
 }
 
+h1 a { 
+    color: #F9F8F8;
+    transition: all 0.5s ease-in-out;
+}
+
+h1 a:hover, .menu ul li a:hover { 
+    color: #B20B30;
+}
+
+
 .menu {
-    background-color: black;
+    background-color: #0F1108;
     position: fixed;
     top: 0;
     left: 0;
@@ -51,11 +61,13 @@ h1 {
 }
 
 .menu ul li a {
+    font-weight: 500;
     display: block;
     padding: 3.5rem;
+    font-size: 1.8rem;
+    color: #F9F8F8;
+    transition: all 0.5s ease-in-out;
 }
-
-
 
 .main-content {
     max-width: 1200px;
