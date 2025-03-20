@@ -1,0 +1,54 @@
+.menu .menu-content a {
+    text-decoration: none;
+}
+
+.menu .menu-content h1 {
+    font-size: 3rem;
+}
+
+.menu .menu-content h1 a { 
+    color: var(--cor-branca);
+    transition: all 0.5s ease-in-out;
+}
+
+.menu .menu-content h1 a:hover, .menu .menu-content ul li a:hover { 
+    color: var(--cor-vermelha)
+}
+
+.menu {
+    background-color: var(--cor-preta);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.7);
+}
+
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.menu ul li a {
+    font-weight: 500;
+    display: block;
+    padding: 3.5rem;
+    font-size: 1.8rem;
+    color: var(--cor-branca);
+    transition: all 0.5s ease-in-out;
+}
+

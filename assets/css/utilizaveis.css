@@ -1,0 +1,10 @@
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.back-acad {
+    background-image: url(../img/undefined_image.png);
+    background-size: cover;
+    background-position: center center;
+}
