@@ -1,0 +1,24 @@
+.inicio h2 {
+    font-size: 4rem;
+    color: var(--cor-branca);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.inicio p {
+    font-size: 2.3rem;
+    color: var(--cor-vermelha);
+    font-weight: 400;
+}
+
+.inicio-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem;
+    height: 100vh;
+}
+
+.inicio-text-content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
