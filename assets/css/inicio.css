@@ -1,24 +1,34 @@
 .inicio h2 {
-    font-size: 4rem;
+    font-size: 4.2rem;
     color: var(--cor-branca);
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1.2;
+    
 }
 
 .inicio p {
-    font-size: 2.3rem;
-    color: var(--cor-vermelha);
+    font-size: 2rem;
+    color: var(--cor-branca);
     font-weight: 400;
 }
 
 .inicio-content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
     gap: 4rem;
     height: 100vh;
 }
 
-.inicio-text-content {
+.inicio-text-content, .inicio-gif{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
+}
+
+.inicio-gif img {
+    max-width: 100%;
+    height: auto;
+   
+    
 }

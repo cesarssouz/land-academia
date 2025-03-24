@@ -1,5 +1,5 @@
 .main-content {
-    max-width: 120rem;
+    max-width: 115rem;
     margin: 0 auto;
 }
 
@@ -11,7 +11,8 @@
 }
 
 .back-padrao {
-    color: var(--cor-preta);
+    background-color: var(--cor-preta);
+    
 }
 .secao {
     min-height: 100vh;
