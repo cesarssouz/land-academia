@@ -1,0 +1,86 @@
+.profissionais h2 {
+    font-size: 4rem;
+    color: var(--cor-branca);
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4rem;
+    text-transform: uppercase;
+}
+
+.profissionais h3 {
+    font-size: 3.5rem;
+    color: var(--cor-branca);
+}
+
+.grid-profissionais .img-content {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.grid-profissionais .img-instrutor {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+  
+}
+
+.profissionais p {
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: var(--cor-branca);
+    margin-bottom: 3rem;
+}
+
+.profissionais-content {
+    display: flex;
+    flex-flow: column wrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-profissionais {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+/* From Uiverse.io by niat786 */ 
+.profissionais button {
+    border: none;
+    color: var(--cor-branca);
+    background-image: linear-gradient(30deg, var(--cor-vermelha), var(--cor-preta));
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0.6em 1.5em;
+    transition: all 1s linear;
+   }
+   
+   .profissionais button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+    cursor: pointer;
+    
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 var(--cor-vermelha);
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }

@@ -11,7 +11,16 @@
 }
 
 .back-padrao {
+
+
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle, #292929, transparent 20%, var(--preto-escuro));
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: var(--cor-preta);
+
+  
     
 }
 .secao {
