@@ -48,7 +48,7 @@
     gap: 3rem;
 }
 
-/* From Uiverse.io by niat786 */ 
+
 .profissionais button {
     border: none;
     color: var(--cor-branca);
@@ -84,3 +84,4 @@
      box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
     }
    }
+
