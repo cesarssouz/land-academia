@@ -48,7 +48,8 @@
 }
 
 .form-group label {
-    font-size: 1.4rem;
+    font-size: 2rem;
+    text-transform: uppercase;
     color: var(--cor-branca);
 }
 
@@ -56,9 +57,9 @@
 .form-group textarea,
 .form-group button {
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 2rem;
 }
 
 .form-group textarea {
@@ -66,12 +67,34 @@
 }
 
 .form-group button {
-    background-color: #3498db;
+    background-color: var(--cor-vermelha);
     color: #fff;
     border: none;
     cursor: pointer;
+    font-size: 1.8rem;
+    transition: all 0.3s;
 }
 
 .form-group button:hover {
-    background-color: #2980b9;
+    background-color: var(--cor-preta);
+}
+
+.inicio-text-content {
+    color: var(--cor-branca);
+}
+
+.inicio-text-content h2 {
+    font-size: 4.4rem;
+    text-transform: uppercase;
+}
+
+.inicio-text-content p {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.form-grid legend {
+    color: var(--cor-branca);
+    font-size: 3rem;
+    padding-bottom: 5rem;
 }
