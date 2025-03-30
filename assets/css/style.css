@@ -18,3 +18,19 @@ body {
     line-height: 1.5;
 }
 
+footer {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--preto-mais-escuro);
+    color: var(--cor-branca);
+    font-size: 2rem;
+    padding: 3rem;
+}
+
+footer a {
+    color: var(--cor-vermelha);
+    text-decoration: none;
+}
+
